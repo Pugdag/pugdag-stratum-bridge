@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/GRinvestPOOL/pugdag-stratum-bridge/src/gostratum"
-	"github.com/pugdag/pugdagd/app/appmessage"
-	"github.com/pugdag/pugdagd/infrastructure/network/rpcclient"
+	"github.com/Pugdag/pugdagd/app/appmessage"
+	"github.com/Pugdag/pugdagd/infrastructure/network/rpcclient"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )

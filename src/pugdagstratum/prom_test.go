@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/GRinvestPOOL/pugdag-stratum-bridge/src/gostratum"
-	"github.com/pugdag/pugdagd/app/appmessage"
+	"github.com/Pugdag/pugdagd/app/appmessage"
 )
 
 func TestPromValid(t *testing.T) {

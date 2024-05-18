@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/GRinvestPOOL/pugdag-stratum-bridge/src/gostratum"
-	"github.com/pugdag/pugdagd/app/appmessage"
+	"github.com/Pugdag/pugdagd/app/appmessage"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

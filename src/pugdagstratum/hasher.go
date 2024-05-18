@@ -9,7 +9,7 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/pugdag/pugdagd/app/appmessage"
+	"github.com/Pugdag/pugdagd/app/appmessage"
 	"golang.org/x/crypto/blake2b"
 )
 

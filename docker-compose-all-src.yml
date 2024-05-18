@@ -13,7 +13,7 @@ services:
       - '-stats=false'
       - '-stratum=:5555'
       - '-prom=:2114'
-      - '-pugdag=host.docker.internal:38110'
+      - '-pugdag=host.docker.internal:26590'
     ports:
       - 5555:5555
       - 2114:2114

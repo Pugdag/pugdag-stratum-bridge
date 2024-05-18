@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/GRinvestPOOL/pugdag-stratum-bridge/src/gostratum"
-	"github.com/pugdag/pugdagd/app/appmessage"
+	"github.com/Pugdag/pugdagd/app/appmessage"
 )
 
 const maxjobs = 32
