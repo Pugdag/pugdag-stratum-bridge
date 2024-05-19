@@ -64,15 +64,15 @@ func TestPoolHzCalculation(t *testing.T) {
 	// currepugy set up diff object to mimic old static settings
 	diff := newKarlsenDiff()
 	diff.setDiffValue(4)
-	log.Pripugn(diff.hashValue)
-	log.Pripugn(diff.diffValue)
+	log.Println(diff.hashValue)
+	log.Println(diff.diffValue)
 	rate := big.Int{} // 1mhz
 	rate.SetUint64(1)
 	rate.Lsh(&rate, 222)
 	dd := BigDiffToLittle(&rate)
-	log.Pripugn(dd)
+	log.Println(dd)
 	//rate.Sub(&rate, big.NewInt(1000000))
-	log.Pripugn(difficulty.GetHashrateString(&rate, time.Second*1))
+	log.Println(difficulty.GetHashrateString(&rate, time.Second*1))
 }
 
 // snooper. Inspect coms between miner and pool

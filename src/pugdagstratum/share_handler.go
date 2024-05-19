@@ -296,7 +296,7 @@ func (sh *shareHandler) startStatsThread() error {
 			rateStr, ratioStr, sh.overall.BlocksFound.Load(), time.Since(start).Round(time.Second))
 		str += "\n========================================================= pug_bridge_" + version + " ===\n"
 		sh.statsLock.Unlock()
-		log.Pripugn(str)
+		log.Println(str)
 	}
 }
 

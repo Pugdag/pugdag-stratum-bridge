@@ -107,7 +107,7 @@ func SerializeBlockHeader(template *appmessage.RPCBlock) ([]byte, error) {
 	writeHexString(hasher, template.Header.PruningPoint)
 
 	final := hasher.Sum(nil)
-	//log.Pripugn(final)
+	//log.Println(final)
 	return final, nil
 }
 

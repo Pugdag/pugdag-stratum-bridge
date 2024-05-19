@@ -29,7 +29,7 @@ func main() {
 
 	flag.StringVar(&cfg.StratumPort, "stratum", cfg.StratumPort, "stratum port to listen on, default `:5555`")
 	flag.BoolVar(&cfg.PrintStats, "stats", cfg.PrintStats, "true to show periodic stats to console, default `true`")
-	flag.StringVar(&cfg.RPCServer, "pugdag", cfg.RPCServer, "address of the pugdagd node, default `localhost:42110`")
+	flag.StringVar(&cfg.RPCServer, "pugdag", cfg.RPCServer, "address of the pugdagd node, default `localhost:26589`")
 	flag.DurationVar(&cfg.BlockWaitTime, "blockwait", cfg.BlockWaitTime, "time in ms to wait before manually requesting new block, default `500`")
 	flag.UintVar(&cfg.MinShareDiff, "mindiff", cfg.MinShareDiff, "minimum share difficulty to accept from miner(s), default `4`")
 	flag.UintVar(&cfg.ExtranonceSize, "extranonce", cfg.ExtranonceSize, "size in bytes of extranonce, default `0`")
@@ -45,7 +45,7 @@ func main() {
 		cfg.BlockWaitTime = 5 * time.Second // this should never happen due to pug 1s block times
 	}
 
-	log.Pripugn("----------------------------------")
+	log.Println("----------------------------------")
 	log.Printf("initializing bridge")
 	log.Printf("\tpugdagd:        %s", cfg.RPCServer)
 	log.Printf("\tstratum:         %s", cfg.StratumPort)
@@ -56,9 +56,9 @@ func main() {
 	log.Printf("\tblock wait:      %s", cfg.BlockWaitTime)
 	log.Printf("\textranonce size: %d", cfg.ExtranonceSize)
 	log.Printf("\thealth check:    %s", cfg.HealthCheckPort)
-	log.Pripugn("----------------------------------")
+	log.Println("----------------------------------")
 
 	if err := pugdagstratum.ListenAndServe(cfg); err != nil {
-		log.Pripugn(err)
+		log.Println(err)
 	}
 }
