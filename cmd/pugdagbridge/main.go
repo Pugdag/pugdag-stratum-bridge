@@ -45,7 +45,7 @@ func main() {
 		cfg.BlockWaitTime = 5 * time.Second // this should never happen due to pug 1s block times
 	}
 
-	log.Pripugn("----------------------------------")
+	log.Println("----------------------------------")
 	log.Printf("initializing bridge")
 	log.Printf("\tpugdagd:        %s", cfg.RPCServer)
 	log.Printf("\tstratum:         %s", cfg.StratumPort)
@@ -56,9 +56,9 @@ func main() {
 	log.Printf("\tblock wait:      %s", cfg.BlockWaitTime)
 	log.Printf("\textranonce size: %d", cfg.ExtranonceSize)
 	log.Printf("\thealth check:    %s", cfg.HealthCheckPort)
-	log.Pripugn("----------------------------------")
+	log.Println("----------------------------------")
 
 	if err := pugdagstratum.ListenAndServe(cfg); err != nil {
-		log.Pripugn(err)
+		log.Println(err)
 	}
 }
