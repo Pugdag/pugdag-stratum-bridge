@@ -126,7 +126,7 @@ func (c *clientListener) NewBlockAvailable(kapi *PugdagApi) {
 				state.initialized = true
 				state.useBigJob = bigJobRegex.MatchString(client.RemoteApp)
 				// first pass through send the difficulty since it's fixed
-				state.stratumDiff = newKarlsenDiff()
+				state.stratumDiff = newPugdagDiff()
 				state.stratumDiff.setDiffValue(c.minShareDiff)
 				if err := client.Send(gostratum.JsonRpcEvent{
 					Version: "2.0",

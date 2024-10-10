@@ -1,9 +1,9 @@
-module github.com/GRinvestPOOL/pugdag-stratum-bridge
+module github.com/Pugdag/pugdag-stratum-bridge
 
 go 1.18
 
 require (
-	github.com/Pugdag/pugdagd v1.0.0
+	github.com/Pugdag/pugdagd v2.0.0
 	github.com/google/go-cmp v0.5.8
 	github.com/mattn/go-colorable v0.1.13
 	github.com/pkg/errors v0.9.1
@@ -12,6 +12,7 @@ require (
 	golang.org/x/crypto v0.1.0
 	gopkg.in/yaml.v2 v2.4.0
 )
+
 
 require (
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect

@@ -1,18 +1,16 @@
 {
-    "name": "pug_bz_local_adapter",
     "isFavorite": false,
     "items": [
         {
             "coin": "PUG",
             "pool_ssl": false,
             "dpool_ssl": false,
-            "miner": "bzminer",
+            "miner": "srbminer",
             "miner_config": {
                 "url": "127.0.0.1:5555",
-                "algo": "pugdag",
+                "algo": "a",
                 "worker": "%WORKER_NAME%",
-                "template": "%WAL%",
-                "user_config": "\"oc_lock_memory_clock\": 810"
+                "user_config": "--disable-cpu"
             },
             "pool_geo": []
         },
@@ -23,7 +21,7 @@
             "miner": "custom",
             "miner_alt": "pug_bridge",
             "miner_config": {
-                "url": "YOUR_KARLSEND_NODE_IP_HERE:42110",
+                "url": "YOUR_PUGDAGD_NODE_IP_HERE:26590",
                 "miner": "pug_bridge",
                 "template": "doesnt.matter",
                 "install_url": "https://github.com/GRinvestPOOL/pugdag-stratum-bridge/releases/download/v1.0.0/pug_bridge-1.0.0_hive.tar.gz"

@@ -29,7 +29,7 @@ Shares-based work allocation with miner-like periodic stat output:
 ===============================================================================
   worker name   |  avg hashrate  |   acc/stl/inv  |    blocks    |    uptime
 -------------------------------------------------------------------------------
- lemois         |       0.13GH/s |          3/0/0 |            0 |       6m48s
+ 3060ti         |       0.13GH/s |          3/0/0 |            0 |       6m48s
 -------------------------------------------------------------------------------
                 |       0.13GH/s |          3/0/0 |            0 |       7m20s
 ========================================================= pug_bridge_v1.0.0 ===
@@ -46,9 +46,9 @@ convenience. It will help to visualize collected statistics.
 
 ![Grafana Monitoring 2](docs/images/grafana-2.png)
 
-![Grafana KLSB Monitoring 1](docs/images/grafana-3.png)
+![Grafana PUGB Monitoring 1](docs/images/grafana-3.png)
 
-![Grafana KLSB Monitoring 2](docs/images/grafana-4.png)
+![Grafana PUGB Monitoring 2](docs/images/grafana-4.png)
 
 Many of the stats on the graph are averaged over a configurable time
 period (24hr default - use the 'resolution' dropdown to change this), so

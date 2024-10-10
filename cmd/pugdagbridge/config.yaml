@@ -2,18 +2,18 @@
 # Note `:PORT` format is needed if not specifiying a specific ip range
 stratum_port: :5555
 
-# pugdagd_address: address/port of the rpc server for pugdagd, typically 42110
+# pugdagd_address: address/port of the rpc server for pugdagd, typically 26589
 # For a list of public nodes, run `nslookup mainnet-dnsseed.daglabs-dev.com`
 # uncomment for to use a public node
-# pugdagd_address: 46.17.104.200:42110
-pugdagd_address: localhost:26590
+# pugdagd_address: 46.17.104.200:26589
+pugdagd_address: localhost:26589
 
 # min_share_diff: only accept shares of the specified difficulty (or higher) from
 # the miner(s).  Higher values will reduce the number of shares submitted, thereby
 # reducing network traffic and server load, while lower values will increase the
 # number of shares submitted, thereby reducing the amount of time needed for
 # accurate hashrate measurements
-min_share_diff: 64
+min_share_diff: 2
 
 # block_wait_time: time to wait since last new block message from pugdagd before
 # manually requesting a new block

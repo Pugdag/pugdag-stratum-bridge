@@ -29,7 +29,7 @@ type pugdagDiff struct {
 	targetValue *big.Int // previously know as fixedDifficultyBI
 }
 
-func newKarlsenDiff() *pugdagDiff {
+func newPugdagDiff() *pugdagDiff {
 	return &pugdagDiff{}
 }
 
