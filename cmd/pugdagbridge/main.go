@@ -8,7 +8,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/GRinvestPOOL/pugdag-stratum-bridge/src/pugdagstratum"
+	"github.com/Pugdag/pugdag-stratum-bridge/src/pugdagstratum"
 	"gopkg.in/yaml.v2"
 )
 

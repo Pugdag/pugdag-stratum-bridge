@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/GRinvestPOOL/pugdag-stratum-bridge/src/gostratum"
+	"github.com/Pugdag/pugdag-stratum-bridge/src/gostratum"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )

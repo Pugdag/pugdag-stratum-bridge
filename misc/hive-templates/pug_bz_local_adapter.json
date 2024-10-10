@@ -26,7 +26,7 @@
                 "url": "YOUR_PUGDAGD_NODE_IP_HERE:26589",
                 "miner": "pug_bridge",
                 "template": "doesnt.matter",
-                "install_url": "https://github.com/GRinvestPOOL/pugdag-stratum-bridge/releases/download/v1.0.0/pug_bridge-1.0.0_hive.tar.gz"
+                "install_url": "https://github.com/Pugdag/pugdag-stratum-bridge/releases/download/v1.0.0/pug_bridge-1.0.0_hive.tar.gz"
             },
             "pool_geo": []
         }

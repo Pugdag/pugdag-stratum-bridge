@@ -12,7 +12,7 @@ macOS and HiveOS.
 Discord discussions/issues: [here](https://discord.gg/pPNESjGfb5)
 
 Huge shoutout to https://github.com/KaffinPX/KStratum and
-https://github.com/GRinvestPOOL/pugdag-stratum-bridge and
+https://github.com/Pugdag/pugdag-stratum-bridge and
 https://github.com/rdugan/kaspa-stratum-bridge for the inspiration.
 
 Tips appreciated: `pugdag:qqe3p64wpjf5y27kxppxrgks298ge6lhu6ws7ndx4tswzj7c84qkjlrspcuxw`
@@ -132,7 +132,7 @@ default port settings, and listen on port 5555 for incoming stratum
 connections.
 
 ```
-git clone https://github.com/GRinvestPOOL/pugdag-stratum-bridge.git
+git clone https://github.com/Pugdag/pugdag-stratum-bridge.git
 cd pugdag-stratum-bridge
 docker compose -f docker-compose-all-src.yml up -d --build
 ```
@@ -168,7 +168,7 @@ default port settings, and listen on port 5555 for incoming stratum
 connections.
 
 ```
-git clone https://github.com/GRinvestPOOL/pugdag-stratum-bridge.git
+git clone https://github.com/Pugdag/pugdag-stratum-bridge.git
 cd pugdag-stratum-bridge
 docker compose -f docker-compose-bridge-src.yml up -d --build
 ```

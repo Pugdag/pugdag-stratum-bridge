@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/GRinvestPOOL/pugdag-stratum-bridge/src/gostratum"
+	"github.com/Pugdag/pugdag-stratum-bridge/src/gostratum"
 	"github.com/Pugdag/pugdagd/app/appmessage"
 )
 

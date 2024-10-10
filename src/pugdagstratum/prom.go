@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/GRinvestPOOL/pugdag-stratum-bridge/src/gostratum"
+	"github.com/Pugdag/pugdag-stratum-bridge/src/gostratum"
 	"github.com/Pugdag/pugdagd/app/appmessage"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
